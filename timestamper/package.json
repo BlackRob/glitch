@@ -1,0 +1,14 @@
+{
+  "name": "timestamper",
+  "version": "1.0.0",
+  "description": "accepts a query, parses it and returns info in an object",
+  "main": "index.js",
+  "repository" : { 
+    "type" :"git",
+    "url" : "https://github.com/npm/npm.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }  "author": "blackrob",
+  "license": "ISC"
+}
