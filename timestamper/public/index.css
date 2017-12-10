@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+.termStyle {
+    color: limegreen;
+    max-width: 600px;
+}
+p {
+    margin-bottom: 8px;
+}
+pre {
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #333333;
+}
+    

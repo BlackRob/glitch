@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "description": "accepts a query, parses it and returns info in an object",
   "main": "index.js",
-  "repository" : { 
-    "type" :"git",
-    "url" : "https://github.com/npm/npm.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlackRob/glitch"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }  "author": "blackrob",
-  "license": "ISC"
+  },
+  "author": "blackrob",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "moment": "^2.19.3",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {}
 }

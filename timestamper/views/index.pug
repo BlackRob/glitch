@@ -1,0 +1,19 @@
+doctype html  
+html(lang='en')
+  head
+    title timestamper
+    link(href='/index.css', rel='stylesheet')
+  body
+    div.termStyle
+        h2 You shouldn't be here
+        p timestamper! is not a website that you visit, it's a microservice that accepts a time (either in the form of a UNIX timestamp or a natural language date) and returns an object containing that date in both formats. 
+        p Example:
+        pre #{url}1000000000 
+        p returns
+        pre {"unix":1000000000,"natural":"September 9, 2001"}
+        p and
+        pre #{url}December%2015,%202015
+        p returns
+        pre {"unix":1450137600,"natural":"December 15, 2015"}
+        p Sending a malformed date/timestamp or anything else to the server returns "null"
+        p Note that the timestamp is a value in seconds, but the date is in days, so there is a range of timestamps that will return the same date, but sending a date will only return one value (the timestamp for midnight on that date).
