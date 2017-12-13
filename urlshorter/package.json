@@ -1,0 +1,21 @@
+{
+  "name": "urlshorter",
+  "version": "1.0.0",
+  "description": "a url shortener",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "blackrob",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6",
+    "pug": "^0.1.0",
+    "valid-url": "^1.0.9"
+  },
+  "repository": {
+    "url": "https://github.com/BlackRob/glitch"
+  }
+}

@@ -1,0 +1,18 @@
+doctype html  
+html(lang='en')
+  head
+    title urlshortener
+    link(href='/style.css', rel='stylesheet')
+  body
+    div.termStyle
+        h2 You don't have to come here!
+        p "urlshortener!" is not a website that you visit, it's a microservice that accepts a URL and returns a shorter link that will take you to the same place. 
+        p Example:
+        pre #{url}http://workingclasshouses.com
+        p returns
+        pre {"url":"http://workingclasshouses.com","shorty":"r1WLMr"}
+        p Then you can use "shorty" (#{url}r1WLMr) instead of typing in "http://workingclasshouses.com". This actually is only helpful with long, complicated URLs.
+        p Each shortcut is made up of six random, alpha-numeric characters (case-sensitive, so 62 characters), for a total of 56,800,235,584 possible unique shortcuts. Hopefully that will be enough :)
+        p This page was written by Robert Austin. You can see more stuff I've made at <a href="http://workingclasshouses.com">workingclasshouses.com</a>.
+        
+        
